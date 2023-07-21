@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    height: max-content;
+    width: 100%;
+    
+}
+.App {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.Login-div{ 
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: transparent;
+    padding: 5rem 2rem 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    
+}
+h1 {
+    height: 5rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.formDiv{
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    
+}
+
+.formInput{
+    max-width: 100%;
+    background-color: transparent;
+    margin: 3% auto;
+    border: 0;
+    font-size: 16px;
+}
+
+.icon{
+    margin: 0 auto;
+    width: 30px;
+    height: 30px;
+}
+
+.passwordOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 2rem;
+}
+.checkbox {
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.1;
+
+}
+.rememberMe {
+    margin-left: 5px;
+    color: #162938;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.forgotPassword{
+    text-decoration: none;
+    cursor: pointer;
+    color: #162938;
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.button {
+    width: 80%;
+    padding: 1rem 0 1rem 0;
+    margin-top: 2rem;
+    border-radius: 10px;
+    border-width: 0;
+    background-color: #162938;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.registerOption {
+    margin-top: 2rem;
+    color: #162938;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.Register {
+    color: #162938;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+
+}
+
+
+
